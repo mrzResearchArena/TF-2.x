@@ -1,0 +1,9 @@
+CNN, is for the computer vision.
+RNN, is for the sequence data (time series, text, speech, biological sequences, stock prediction).
+GAN, generate realistic images (even people/object doesn't exist in this planet).
+DRL, is for the gaming model.
+NLP, is for the speech recognition and machine translation.
+
+Gist:
+[1]. Machine Learning, is just geometry.
+
