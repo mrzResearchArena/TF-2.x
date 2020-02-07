@@ -7,3 +7,7 @@ NLP, is for the speech recognition and machine translation.
 Gist:
 [1]. Machine Learning, is just geometry.
 
+GANs:
+1. Face Detector Website:
+   A. Identify with a games: http://www.whichfaceisreal.com/
+   B. Refresh the pages: https://www.thispersondoesnotexist.com/
