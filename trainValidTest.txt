@@ -1,0 +1,40 @@
+D's 98% = Xtrain, Ytrain
+D's 1%  = Xvalid, Yvalid
+D's 1%  = Xtest,  Ytest
+-----------------------------------;
+
+Step 1:
+result = model.fit(Xtrain, Ytrain, validation_set=(Xvalid, Yvalid), epochs=100)
+
+Step 2:
+Merge train and valid segment:
+Xtrain = Xtrain + Xvalid # concat
+Ytrain = Ytrain + Yvalid # concat
+
+result = model.fit(Xtrain, Ytrain, epochs=?) # After getting best number of epochs
+
+Step 3:
+result = model.evalutate(Xtest,  Ytest)
+
+
+
+D's 99% = XtrainValid, YtrainValid
+D's 1%  = Xtest,       Ytest
+
+D's 98% = Xtrain, Ytrain
+D's 1%  = Xvalid, Yvalid
+D's 1%  = Xtest,  Ytest
+-----------------------------------;
+
+Step 1:
+result = model.fit(Xtrain, Ytrain, validation_set=(Xvalid, Yvalid), epochs=100) #Hyperparameter Tuning
+
+Step 2:
+result = model.fit(XtrainValid, YtrainValid, epochs=?) # After getting best number of epochs
+
+Step 3:
+result = model.evalutate(Xtest,  Ytest) # Final evaluation, this is the result!
+
+
+
+

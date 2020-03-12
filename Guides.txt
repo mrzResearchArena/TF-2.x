@@ -1,14 +1,38 @@
+Gist:
+[1]. Keep in mind "Machine Learning" is just high-dimensional geometry.
+[2]. Machine Learning is the logical and experimental science.
+
 CNN, is for the computer vision.
 RNN, is for the sequence data (time series, text, speech, biological sequences, stock prediction).
 GAN, generate realistic images (even people/object doesn't exist in this planet).
 DRL, is for the gaming model.
 NLP, is for the speech recognition and machine translation.
 
-Gist:
-[1]. Machine Learning, is just geometry.
+Computer Vision Applications:
+A. Image Classicification,
+B. Transfer Learning,
+C. Style Transfer, and
+D. Object Detection
 
-GANs:
+Computer Vision Popular Algorithms:
+A. VGG
+   VGG-16, doesn't scale the input dataset.
+B. ResNet
+C. Inception
+
+Sequence Data: Text, Speech/Audio, FinTech (Stock Merket), DNA-Seq, Time Series Analysis (Weather Prediction)
+
+Bag of Words:
+
+
+GAN:
 1. Face Detector Websites:
    A. Identify with a games: http://www.whichfaceisreal.com/
    B. Refresh the pages: https://www.thispersondoesnotexist.com/
-   C. Add Soon!
+
+
+Z1 = relu(XW1+b1)
+Z2 = relu(Z1W2+b2)
+Z3 = relu(Z2W3+b3)
+
+Z = relu(relu(relu(XW1+b1)W2+b2)W3+b3)
